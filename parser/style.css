@@ -36,12 +36,14 @@ body {
     text-align: center;
     color: #fff;
 }
+
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 #cookies {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0.8rem;
@@ -49,6 +51,7 @@ form {
     background-color: aliceblue;
     color: black;
 }
+
 #parse-btn {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 1rem 0;
@@ -59,9 +62,11 @@ form {
     border: none;
     transition: transform .3s;
 }
+
 #parse-btn:hover {
     transform: scale(1.05);
 }
+
 #info {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
