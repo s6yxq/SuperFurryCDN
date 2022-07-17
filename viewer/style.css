@@ -1,0 +1,70 @@
+body {
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 400% 400%;
+    background-image: linear-gradient(
+          140deg, 
+          #e0bbe4 0%, 
+          #957dad 30%, 
+          #d291bc 51%, 
+          #fec8d8 75%,
+          #ffdfd3 100%
+    );  
+    animation: AnimateBG 20s ease infinite;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+  }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+
+            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+            font-weight: bold;
+            font-size: 1.7rem;
+            text-align: center;
+            color: #fff;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #uuid {
+            padding: 1rem;
+
+            color: #333;
+            background-color: #fff;
+
+            font-size: 1.5rem;
+            text-align: center;
+
+            width: 30vw;
+            height: 2vh;
+            border-radius: 0.5rem;
+            border: none;
+        }
+        #gobtn {
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.2rem;
+            border: 2px solid #fff;
+            border-radius: 0.5rem;
+            font-size: 1.4rem;
+            color: #fff;
+            transition: transform 1s linear;
+        }
+        #gobtn:hover {
+            transform: scale(1.1);
+        }
+    
