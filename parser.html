@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Im not a skid, but i like to do what they do.</title>
     <link rel="shortcut icon" href="images/milk-bottle.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="parser/style.css">
 </head>
 <body>
-    
+    <div class="cookies">
+        <form action="/parsecookies" method="post" enctype="multipart/form-data">
+            <input type="file" name="cookies" id="cookies">
+            <input type="submit" id="parse-btn" value="Parse">
+        </form>
+        <span id="info">Upload your .txt file and parse it here!</span>
+    </div>
 </body>
 </html>
